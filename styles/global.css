@@ -1,0 +1,149 @@
+/*//////////////////////////////////////////////////////////////////
+[ REBOOT ]*/
+*,
+*:before,
+*:after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body,
+html {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #666666;
+
+  height: 100%;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------*/
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0px;
+  list-style-type: none;
+}
+
+/*---------------------------------------------*/
+input,
+textarea,
+label {
+  display: block;
+  outline: none;
+  border: none;
+}
+
+/*---------------------------------------------*/
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+iframe {
+  border: none;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../public/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url("../public/fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: Poppins-ExtraLight;
+  src: url("../public/fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../public/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Italic;
+  src: url("../public/fonts/Poppins/Poppins-Italic.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../public/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../public/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+/*---------------------------------------------*/
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src: url("../public/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: PlayfairDisplay-Bold;
+  src: url("../public/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf");
+}
+
+/*---------------------------------------------*/
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../public/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../public/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+/*------------------------------------------------------------------
+[ Bootstrap ]*/
+.container {
+  max-width: 1380px;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+a {
+  text-decoration: none;
+}

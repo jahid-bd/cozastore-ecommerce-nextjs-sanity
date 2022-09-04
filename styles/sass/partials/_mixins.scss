@@ -1,0 +1,11 @@
+@mixin flex($content: initial) {
+  display: flex;
+  align-items: center;
+  justify-content: $content;
+}
+
+@mixin font($family, $size, $height) {
+  font-family: $family;
+  size: $size;
+  line-height: $height;
+}

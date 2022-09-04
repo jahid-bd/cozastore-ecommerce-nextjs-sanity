@@ -1,0 +1,33 @@
+{
+  "name": "coza-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "@sanity/client": "^3.3.6",
+    "@sanity/image-url": "^1.0.1",
+    "bootstrap": "^5.2.0",
+    "dotenv": "^16.0.2",
+    "next": "12.2.5",
+    "nextjs-progressbar": "^0.0.14",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-detect-click-outside": "^1.1.7",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0",
+    "react-multi-carousel": "^2.8.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
